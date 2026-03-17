@@ -1,6 +1,7 @@
 {
-  "name": "tamer-auth",
-  "version": "0.1.0",
+  "name": "@tamer4lynx/tamer-auth",
+  "version": "0.0.1",
+  "publishConfig": { "access": "public", "tag": "prerelease" },
   "type": "module",
   "description": "OAuth 2.0 / OpenID Connect for Lynx.",
   "main": "dist/src/index.js",
@@ -12,23 +13,33 @@
       "default": "./dist/src/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
   },
   "dependencies": {
-    "tamer-linking": "*",
-    "tamer-display-browser": "*"
+    "@tamer4lynx/tamer-linking": "^0.0.1",
+    "@tamer4lynx/tamer-display-browser": "^0.0.1"
   },
   "peerDependencies": {
-    "tamer-transports": "*"
+    "@tamer4lynx/tamer-transports": "^0.0.1"
   },
   "devDependencies": {
     "typescript": "~5.8.0"
   },
   "engines": {
     "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamer4lynx/tamer-auth.git"
+  },
+  "homepage": "https://github.com/tamer4lynx/tamer-auth#readme",
+  "bugs": {
+    "url": "https://github.com/tamer4lynx/tamer-auth/issues"
   },
   "author": "Nanofuxion",
   "license": "MIT"

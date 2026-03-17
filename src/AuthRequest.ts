@@ -1,7 +1,7 @@
 'background only'
 
-import { createURL } from 'tamer-linking'
-import { openAuthSessionAsync } from 'tamer-display-browser'
+import { createURL } from '@tamer4lynx/tamer-linking'
+import { openAuthSessionAsync } from '@tamer4lynx/tamer-display-browser'
 import { buildCodeAsync, generateRandomState } from './PKCE.js'
 import type { AuthDiscoveryDocument, AuthRequestConfig, AuthSessionResult, TokenResponseConfig } from './AuthRequest.types.js'
 import { TokenResponse } from './TokenResponse.js'

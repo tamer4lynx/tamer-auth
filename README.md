@@ -5,7 +5,7 @@ OAuth 2.0 / OpenID Connect for Lynx.
 ## Installation
 
 ```bash
-npm install tamer-auth
+npm install @tamer4lynx/tamer-auth
 ```
 
 Add to your app's dependencies and run `t4l link`. Depends on **tamer-linking** and **tamer-display-browser**.
@@ -20,8 +20,8 @@ import {
   type AuthRequestConfig,
   type AuthDiscoveryDocument,
   type AuthSessionResult,
-} from 'tamer-auth'
-import { openAuthSessionAsync } from 'tamer-display-browser'
+} from '@tamer4lynx/tamer-auth'
+import { openAuthSessionAsync } from '@tamer4lynx/tamer-display-browser'
 
 const redirectUri = makeRedirectUri({ scheme: 'myapp' })
 
