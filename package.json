@@ -1,6 +1,6 @@
 {
   "name": "@tamer4lynx/tamer-auth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": { "access": "public", "tag": "prerelease" },
   "type": "module",
   "description": "OAuth 2.0 / OpenID Connect for Lynx.",
@@ -21,11 +21,11 @@
     "prepare": "tsc"
   },
   "dependencies": {
-    "@tamer4lynx/tamer-linking": "^0.0.1",
-    "@tamer4lynx/tamer-display-browser": "^0.0.1"
+    "@tamer4lynx/tamer-linking": "^0.0.3",
+    "@tamer4lynx/tamer-display-browser": "^0.0.3"
   },
   "peerDependencies": {
-    "@tamer4lynx/tamer-transports": ">=0.0.1"
+    "@tamer4lynx/tamer-transports": "^0.0.9"
   },
   "devDependencies": {
     "typescript": "~5.8.0"
